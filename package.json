@@ -1,0 +1,49 @@
+{
+  "name": "new-react-app",
+  "private": false,
+  "version": "1.0.1",
+  "description": "React starter boilerplate for client and server rendering (Universal)",
+  "repository": {
+    "url": "https://github.com/GA-MO/new-react-app.git",
+    "type": "git"
+  },
+  "author": "Thawatchai Kuansombat (thawatchai.deartk@gmail.com)",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "new-react-app": "./lib/index.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack",
+    "boilerplate",
+    "react-boilerplate",
+    "new-react-app",
+    "create-react-app",
+    "react-app",
+    "react-redux-boilerplate"
+  ],
+  "dependencies": {
+    "babel": "^5.5.8",
+    "babel-core": "^5.6.18",
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "cross-spawn": "^4.0.0",
+    "fs-extra": "^1.0.0",
+    "semver": "^5.0.3",
+    "simple-git": "^1.73.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test-new-react-app": "node ./lib/index.js",
+    "new-react-app": "node ./src/index.js"
+  },
+  "files": [
+    "lib/index.js"
+  ],
+  "main": "lib/index.js"
+}
